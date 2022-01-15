@@ -1,0 +1,16 @@
+*.o
+*.exe
+*.ilk
+*.pdb
+
+config.h
+
+tags
+*.swp
+*.orig
+
+.clangd/
+build/
+compile_commands.json
+
+dwm-win32.log
