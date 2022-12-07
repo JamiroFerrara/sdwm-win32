@@ -865,7 +865,7 @@ monocle(void) {
     Client *c;
 
     for (c = nexttiled(clients); c; c = nexttiled(c->next)) {
-        resize(c, wx, wy, ww - 2 * c->bw, wh - 2 * c->bw, 0,0,0,0);
+        resize(c, wx - 10, wy - 5, (ww - 2 * c->bw) + 16, (wh - 2 * c->bw) + 10, 0,0,0,0);
     }
 }
 

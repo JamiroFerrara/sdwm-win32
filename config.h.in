@@ -54,6 +54,8 @@ static Rule rules[] = {
     { L"org.wezfurlong.wezterm",             NULL,                  NULL,               0,          false,          true },
     { L"TaskManagerWindow",                  NULL,                  NULL,               0,          true,           true },
     { NULL,                                  NULL,                  L"devenv.exe",      3,          true,           true },
+    { NULL,                                  NULL,                  L"microsoft.photos.exe",      0,          true,           true },
+    { NULL,                                  NULL,                  L"dsNetworkConnect.exe",      0,          true,           true },
 };
 
 /* layout(s) */
