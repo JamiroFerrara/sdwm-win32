@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckTypeSize.cmake
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/cmake/luajit/host/buildvm/CMakeLists.txt

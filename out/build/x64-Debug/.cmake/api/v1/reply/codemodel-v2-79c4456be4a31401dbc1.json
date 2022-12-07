@@ -1,0 +1,184 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d123292c7512a1d517a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "cmake/luajit/host/minilua",
+					"jsonFile" : "directory-cmake.luajit.host.minilua-Debug-1061a411055cc674b8e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake/luajit/host/minilua",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "cmake/luajit/host/buildvm",
+					"jsonFile" : "directory-cmake.luajit.host.buildvm-Debug-679d8611bc249b183459.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "cmake/luajit/host/buildvm",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "luajit",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "minilua",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "buildvm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "buildvm::@24c116b262c94e2133a9",
+					"jsonFile" : "target-buildvm-Debug-0cb75eea6ee49b54db98.json",
+					"name" : "buildvm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "buildvm_arch_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buildvm_arch_h-Debug-06b54e28cd9d61ec4f92.json",
+					"name" : "buildvm_arch_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwm-win32::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwm-win32-Debug-fb196966caa86a836be6.json",
+					"name" : "dwm-win32",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libluajit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libluajit-Debug-67d91b1abb1ca57d2a05.json",
+					"name" : "libluajit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lj_gen_folddef::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lj_gen_folddef-Debug-9e37c22d0c10d0e14230.json",
+					"name" : "lj_gen_folddef",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lj_gen_headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lj_gen_headers-Debug-be5830618eb3f9a72b2d.json",
+					"name" : "lj_gen_headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "luacompat53::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-luacompat53-Debug-fb6677e1928f4f40478d.json",
+					"name" : "luacompat53",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "minilua::@f5694ffb029d364b4707",
+					"jsonFile" : "target-minilua-Debug-280a0f59eb7dc44bdc5e.json",
+					"name" : "minilua",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/GitHub/TecnoACE/dwm-win32/out/build/x64-Debug",
+		"source" : "C:/GitHub/TecnoACE/dwm-win32"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,32 @@
+^C:\USERS\JAMIRO FERRARA\GITHUB\TECNOACE\SDWM-WIN32\BUILD\32BIT\CMAKEFILES\9102D0337267A23BE09EAC8FC2DCD697\LJ_FOLDDEF.H.RULE
+setlocal
+cd "C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\Release\buildvm.exe" -m folddef -o "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/lj_folddef.h" "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/extern/luajit/src/lj_opt_fold.c"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JAMIRO FERRARA\GITHUB\TECNOACE\SDWM-WIN32\BUILD\32BIT\CMAKEFILES\60CAEC622D2B9F3B5ABAC181BFC23B49\LJ_GEN_FOLDDEF.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JAMIRO FERRARA\GITHUB\TECNOACE\SDWM-WIN32\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32" "-BC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit" --check-stamp-file "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

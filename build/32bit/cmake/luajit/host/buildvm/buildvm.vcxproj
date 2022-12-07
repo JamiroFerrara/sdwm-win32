@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FACDD262-4ABB-31E8-9F98-71E6B10D2771}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>buildvm</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">buildvm.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">buildvm</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">buildvm.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">buildvm</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">buildvm.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">buildvm</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">buildvm.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">buildvm</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LJ_ARCH_HASFPU=1;LJ_ABI_SOFTFP=0;LUAJIT_TARGET=LUAJIT_ARCH_x86;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LJ_ARCH_HASFPU=1;LJ_ABI_SOFTFP=0;LUAJIT_TARGET=LUAJIT_ARCH_x86;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/Debug/buildvm.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/Debug/buildvm.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LJ_ARCH_HASFPU=1;LJ_ABI_SOFTFP=0;LUAJIT_TARGET=LUAJIT_ARCH_x86;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LJ_ARCH_HASFPU=1;LJ_ABI_SOFTFP=0;LUAJIT_TARGET=LUAJIT_ARCH_x86;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/Release/buildvm.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/Release/buildvm.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LJ_ARCH_HASFPU=1;LJ_ABI_SOFTFP=0;LUAJIT_TARGET=LUAJIT_ARCH_x86;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LJ_ARCH_HASFPU=1;LJ_ABI_SOFTFP=0;LUAJIT_TARGET=LUAJIT_ARCH_x86;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/MinSizeRel/buildvm.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/MinSizeRel/buildvm.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LJ_ARCH_HASFPU=1;LJ_ABI_SOFTFP=0;LUAJIT_TARGET=LUAJIT_ARCH_x86;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LJ_ARCH_HASFPU=1;LJ_ABI_SOFTFP=0;LUAJIT_TARGET=LUAJIT_ARCH_x86;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\..\..\..;C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/RelWithDebInfo/buildvm.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/RelWithDebInfo/buildvm.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\cmake\luajit\host\buildvm\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/cmake/luajit/host/buildvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32" "-BC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit" --check-stamp-file "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/cmake/luajit/host/buildvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32" "-BC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit" --check-stamp-file "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/cmake/luajit/host/buildvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32" "-BC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit" --check-stamp-file "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/cmake/luajit/host/buildvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32" "-BC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit" --check-stamp-file "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\buildvm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host\buildvm.c" />
+    <ClCompile Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host\buildvm_asm.c" />
+    <ClCompile Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host\buildvm_fold.c" />
+    <ClCompile Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host\buildvm_lib.c" />
+    <ClCompile Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\luajit\src\host\buildvm_peobj.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\ZERO_CHECK.vcxproj">
+      <Project>{FF13E894-72F4-33B1-9799-501919F15583}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\buildvm_arch_h.vcxproj">
+      <Project>{28648281-B383-3948-A9E4-E328DA0B87B6}</Project>
+      <Name>buildvm_arch_h</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

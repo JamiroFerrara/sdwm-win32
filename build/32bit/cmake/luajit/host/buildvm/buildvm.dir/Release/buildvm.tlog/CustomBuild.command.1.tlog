@@ -1,0 +1,10 @@
+^C:\USERS\JAMIRO FERRARA\GITHUB\TECNOACE\SDWM-WIN32\CMAKE\LUAJIT\HOST\BUILDVM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32" "-BC:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit" --check-stamp-file "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

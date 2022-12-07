@@ -1,0 +1,397 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.1+3e40a09f8 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/18/2022 9:40:03 AM.
+Project "C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\3.22.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\3.22.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\3.22.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/3.22.1/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_09d57.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.1+3e40a09f8 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.29.30136 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_09d57.dir\Debug\\" /Fd"cmTC_09d57.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
+  cmTC_09d57.vcxproj -> C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\CMakeTmp\Debug\cmTC_09d57.exe
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.1+3e40a09f8 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/18/2022 9:40:05 AM.
+Project "C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\3.22.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\3.22.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\3.22.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/3.22.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fed10.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.1+3e40a09f8 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.29.30136 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fed10.dir\Debug\\" /Fd"cmTC_fed10.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_fed10.vcxproj -> C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\CMakeTmp\Debug\cmTC_fed10.exe
+
+
+
+Checking whether the ASM compiler is MSVC using "-?" matched "Microsoft":
+Microsoft (R) C/C++ Optimizing Compiler versione 19.29.30136 per x86
+Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+
+                         OPZIONI DEL COMPILATORE C/C++
+
+
+                              -OTTIMIZZAZIONE-
+
+Numero massimo di ottimizzazioni /O1 (priorità allo spazio)
+Numero massimo di ottimizzazioni /O2 (priorità alla velocità)
+/Ob<n> Espansione inline (n predefinito=0)
+/Od Disabilita le operazioni di ottimizzazione (predefinita)
+/Og Abilita l'ottimizzazione globale    /Oi[-] Abilita le funzioni intrinseche
+/Os Ottimizza lo spazio del codice      /Ot Ottimizza la velocità del codice
+Ottimizzazioni /Ox (priorità alla velocità)
+/Oy[-] Abilita l'omissione dei puntatori ai frame 
+/favor:<blend|ATOM> scegliere il processore per il quale effettuare l'ottimizzazione tra i seguenti:
+    blend - Una combinazione di ottimizzazioni per diversi processori x86
+    ATOM - Processori Intel(R) Atom(TM) 
+
+                             -GENERAZIONE DEL CODICE-
+
+/Gu[-] assicura che funzioni distinte abbiano indirizzi distinti
+/Gw[-] separa le variabili globali per il linker
+/GF Abilita la condivisione delle stringhe in sola lettura
+/Gm[-] Abilita la ricompilazione minima /Gy[-] Separa le funzioni per il linker
+/GS[-] Abilita i controlli di sicurezza /GR[-] Abilita RTTI di C++
+/GX[-] Abilita EH (equivalente a /EHsc) di C++
+/guard:cf[-] Abilita CFG (guard flusso di controllo)
+/guard:ehcont[-] Abilita i metadati di continuazione EH (CET)
+/EHs Abilita EH (senza eccezioni SEH) di C++
+/EHa Abilita EH (con eccezioni SEH) di C++
+/EHc Usa nothrow come impostazione predefinita di extern "C"
+/EHr Genera sempre verifiche di terminazione del runtime noexcept
+/fp:<except[-]|fast|precise|strict> Consente di scegliere il modello a virgola mobile:
+    except[-] Considera le eccezioni di virgola mobile durante la generazione del codice
+    fast Modello a virgola mobile "fast"; i risultati sono meno prevedibili
+    precise Modello a virgola mobile "precise"; i risultati sono prevedibili
+    strict Modello a virgola mobile "strict" (implica /fp:except)
+/Qfast_transcendentals Genera intrinseci FP inline anche con /fp:except
+/Qspectre[-] Abilita le mitigazioni per CVE 2017-5753
+/Qpar[-] Abilita la generazione di codice parallelo
+/Qpar-report:1 diagnostica parallelizzazione automatica; indica i cicli parallelizzati
+/Qpar-report:2 diagnostica parallelizzazione automatica; indica i cicli non parallelizzati
+/Qvec-report:1 diagnostica vettorizzazione automatica; indica i cicli vettorizzati
+/Qvec-report:2 diagnostica vettorizzazione automatica; indica i cicli non vettorizzati
+/GL[-] Abilita la generazione di codice in fase di collegamento
+/volatile:<iso|ms> Scegliere il modello volatile:
+    iso - Semantica acquisisci/rilascia non garantita per accesso volatile
+    ms - Semantica acquisisci/rilascia garantita per accesso volatile
+/GA Ottimizza per l'applicazione Windows
+/Ge Impone il controllo dello stack per tutte le funzioni
+/Gs[numero] Controlla le chiamate di verifica dello stack
+/Gh Abilita la chiamata di funzione _penter
+/GH Abilita la chiamata di funzione _pexit
+/GT Genera accessi TLS indipendenti da fiber
+/RTC1 Abilita i controlli rapidi (/RTCsu)
+/RTCc Converte in controlli di tipo più limitato
+/RTCs Verifica runtime dello stack frame
+/RTCu Controlli di utilizzo locale non inizializzati
+/clr[:opzione] Compila per Common Language Runtime, dove opzione è:
+    pure: produce un file di output solo IL (senza codice eseguibile nativo)
+    safe: produce un file di output verificabile solo IL
+    netcore: produce assembly destinati al runtime di .NET Core
+    noAssembly: non produce alcun assembly
+    nostdlib: ignora la directory di sistema di .NET Framework durante la ricerca di assembly
+    nostdimport: non importa in modo implicito gli assembly obbligatori
+    initialAppDomain: abilita il comportamento AppDomain iniziale di Visual C++ 2002
+    implicitKeepAlive: disattiva la creazione implicita di System::GC::KeepAlive(this)
+/fsanitize=address Abilita la generazione del codice con AddressSanitizer
+/Gd __cdecl Convenzione di chiamata     /Gr Convenzione di chiamata __fastcall
+/Gz Convenzione di chiamata __stdcall   
+/GZ Abilita i controlli dello stack (/RTCs)
+/Gv Convenzione di chiamata __vectorcall/QIfist[-] Usa FIST anziché ftol()
+/hotpatch assicura la spaziatura interna delle funzioni per le immagini su cui è applicabile una patch a caldo
+/arch:<IA32|SSE|SSE2|AVX|AVX2|AVX512> - Requisiti minimi dell'architettura della CPU. Scegliere una delle opzioni seguenti:
+   IA32 - Consente di utilizzare le istruzioni avanzate e utilizzare x87 per i calcoli a virgola mobile
+   SSE - Consente di usare le istruzioni disponibili con le CPU abilitate per SSE
+   SSE2 - (impostazione predefinita) consente di usare le istruzioni disponibili con le CPU abilitate per SSE2
+   AVX - Consente di usare le istruzioni disponibili con le CPU abilitate per AVX
+   AVX2 - Consente di usare le istruzioni disponibili con le CPU abilitate per AVX2
+   AVX512 - Consente di usare le istruzioni disponibili con le CPU abilitate per AVX-512
+/Qimprecise_fwaits Genera elementi FWAITs solo esternamente all'istruzione "try" e non al suo interno
+/Qsafe_fp_loads Genera caricamenti FP sicuri
+/QIntel-jcc-erratum Abilita le mitigazioni per l'errore JCC Intel
+/Qspectre-load Abilita le mitigazioni Spectre per tutte le istruzioni che caricano memoria
+/Qspectre-load Abilita le mitigazioni Spectre per tutte le istruzioni del flusso di controllo che caricano memoria
+/fpcvt:<IA|BC> compatibilità per la conversione da virgola mobile a intero senza segno
+   IA - risultati compatibili con l'istruzione VCVTTSD2USI
+   BC - risultati compatibili con il compilatore di VS2017 e versioni precedenti
+
+                              -FILE DI OUTPUT-
+
+/Fa[file] Specifica un file di listato dell'assembly
+/FA[scu] Configura il listato dell'assembly
+/Fd[file] Specifica un file PDB         /Fe<file> Specifica un file eseguibile
+/Fm[file] Specifica un file di mapping  /Fo<file> Specifica un file oggetto
+/Fp<file> Specifica un file di intestazione precompilata
+/Fr[file] Specifica il file di origine del browser
+/FR[file] Specifica un file SBR esteso  
+/Fi[file] Specifica un file pre-elaborato
+/Fd: <file> Specifica un file PDB       /Fe: <file> Specifica un file eseguibile
+/Fm: <file> Specifica un file di mapping/Fo: <file> Specifica un file oggetto
+/Fp: <file> Specifica un file PCH       /FR: <file> Specifica un file SBR esteso
+/Fi: <file> Specifica un file pre-elaborato
+/Ft<dir> percorso dei file di intestazione generati per #import
+/doc[file] Elabora i commenti relativi alla documentazione XML ed eventualmente specifica il file XDC
+
+                              -PREPROCESSORE-
+
+/AI<directory> Specifica il percorso di ricerca dell'assembly
+/FU<file> Impone l'utilizzo di assembly/modulo 
+/C Non rimuove i commenti               /D<nome>{=|#}<testo> Definisce una macro
+/E Pre-elabora in stdout                
+/EP Pre-elabora in stdout, senza istruzione #line
+/P Pre-elabora nel file                 
+/Fx Esegue il merge del codice inserito al file
+/FI<file> Specifica il file di inclusione da utilizzare
+/U<nome> Rimuove la macro definita in precedenza
+/u Rimuove tutte le macro definite in precedenza
+/I<directory> Specifica il percorso di ricerca
+/X Ignora "posizioni standard"          
+con /PH viene generato #pragma file_hash durante la pre-elaborazione
+/PD stampa tutte le definizioni di macro
+
+                                -LINGUAGGIO-
+
+/std:<c++14|c++17|c++latest> versione standard di C++ 
+    c++14 - ISO/IEC 14882:2014 (impostazione predefinita)
+    c++17 - ISO/IEC 14882:2017
+    c++latest - Versione standard bozza più recente (set di funzionalità soggetto a modifica)
+/permissive[-] Abilita la compilazione di codice non conforme (set di funzionalità soggetto a modifica) (attivo per impostazione predefinita)
+/Ze Abilita le estensioni (predefinita) /Za Disabilita le estensioni
+/ZW Abilita le estensioni del linguaggio WinRT
+/Zs Solo controllo della sintassi       
+/Zc:arg1[,arg2] Conformità al linguaggio C++, i cui argomenti possono essere:
+  forScope[-]           Forza l'applicazione di C++ standard per le regole di ambito
+  wchar_t[-]            wchar_t è il tipo nativo, non un typedef
+  auto[-]               Forza l'applicazione del nuovo significato di C++ standard per auto
+  trigraphs[-]          Abilita i trigrammi (disattivato per impostazione predefinita)
+  rvalueCast[-]         Forza l'applicazione delle regole di conversione del tipo esplicito di C++ standard
+  strictStrings[-]      Disabilita il valore letterale stringa nella conversione [char|wchar_t]*
+                        (disattivato per impostazione predefinita)
+  implicitNoexcept[-]   Abilita noexcept implicito su funzioni obbligatorie
+  threadSafeInit[-]     Abilita l'inizializzazione statica locale thread-safe
+  inline[-]             Rimuove la funzione o i dati senza riferimento se è COMDAT
+                        o include un solo collegamento interno (disattivato per impostazione predefinita)
+  sizedDealloc[-]       abilita le funzioni di deallocazione dimensionata
+                        globali di C++14 (attivato per impostazione predefinita)
+  throwingNew[-]        Presuppone la generazione dell'operatore new in caso di errore (disattivato per impostazione predefinita)
+  referenceBinding[-]   Non consente il binding di un elemento temporaneo a
+                        un riferimento lvalue non costante (disattivato per impostazione predefinita)
+  twoPhase-             Disabilita la ricerca del nome in due fasi
+  ternary[-]            Forza l'applicazione delle regole di C++11 per l'operatore condizionale (disattivato per impostazione predefinita)
+  noexceptTypes[-]      Forza l'applicazione delle regole noexcept di C++17 (attive per impostazione predefinita in C++17 o versioni successive)
+  alignedNew[-]         Abilita l'allineamento di oggetti allocati dinamicamente per C++17 (attivato per impostazione predefinita)
+  hiddenFriend[-]       impone regole friend nascoste C++ standard (rese implicite da /permissive-)
+  externC[-]            impone regole C++ standard per funzioni 'extern "C"' (rese implicite da /permissive-)
+  lambda[-]             per un miglior supporto delle funzioni lambda, usare il processore lambda più recente (disattivato per impostazione predefinita)
+  tlsGuards[-]          genera i controlli di runtime per l'inizializzazione delle variabili TLS (attivato per impostazione predefinita)
+  zeroSizeArrayNew[-]   chiama il membro new/delete per matrici di oggetti di dimensione 0 (attivo per impostazione predefinita)
+/await Abilita l'estensione per funzioni ripristinabili
+/await:strict Abilita il supporto per coroutine C++20 standard con versioni precedenti del linguaggio
+/constexpr:depth <N>     Limite di profondità di ricorsione per la valutazione di constexpr (impostazione predefinita: 512)
+/constexpr:backtrace<N> mostra N valutazioni di constexpr nella diagnostica (impostazione predefinita: 10)
+/constexpr:steps<N>     termina la valutazione di constexpr dopo N incrementi (impostazione predefinita: 100000)
+/Zi Abilita le informazioni di debug    
+/Z7 Abilita informazioni di debug in stile meno recente
+/Zo[-] Genera informazioni di debug più complete per il codice ottimizzato (attivato per impostazione predefinita)
+/ZH:[MD5|SHA1|SHA_256] algoritmo hash per il calcolo del checksum del file nelle informazioni di debug (impostazione predefinita: MD5)
+/Zp[n] Comprime gli struct allineandoli su un limite di n byte
+/Zl Omette il nome della libreria predefinita in .OBJ
+/vd{0|1|2} Abilita/disabilita vtordisp  /vm<x> Tipo di puntatori a membri
+/std:<c11|c17> versione standard di C
+    c11 - ISO/IEC 9899:2011
+    c17 - ISO/IEC 9899:2018
+/ZI Abilita le informazioni di debug di Modifica e continuazione
+/openmp Abilita le estensioni del linguaggio OpenMP 2.0
+/openmp:experimental abilita le estensioni del linguaggio OpenMP 2.0 ed estensioni del linguaggio OpenMP 3.0+ selezionate
+/openmp:llvm Estensioni del linguaggio OpenMP che usano il runtime di LLVM
+
+                              -VARIE-
+
+@<file> Opzioni dei file di risposta    
+/?, /help Visualizza questo argomento della Guida
+/bigobj Genera il formato di oggetto esteso
+/c Solo compilazione, nessun collegamento
+/errorReport:opzione Deprecata. Segnala a Microsoft gli errori interni del compilatore
+    none Non invia la segnalazione                
+    prompt Richiede l'invio immediato della segnalazione
+    queue Al successivo accesso di amministratore, richiede l'invio della segnalazione (impostazione predefinita) 
+    send Invia la segnalazione automaticamente         
+/FC Utilizza i percorsi completi nella diagnostica
+/H<numero> Lunghezza massima dei nomi esterni
+Il tipo char predefinito /J è unsigned  
+/MP[n] Utilizza fino a 'n' processi per la compilazione
+/nologo Non visualizza le informazioni sul copyright
+/showIncludes Visualizza i nomi dei file di inclusione
+/Tc<file di origine> Compila il file come file .c
+/Tp<file di origine> Compila il file come file .cpp
+/TC Compila tutti i file come file .c   /TP Compila tutti i file come file .cpp
+/V<stringa> Imposta la stringa di versione
+/Yc[file] Crea un file PCH              
+/Yd Inserisce informazioni di debug in ogni OBJ
+/Yl[sym] Inserisce riferimenti PCH per la libreria di debug
+/Yu[file] Usa il file PCH               /Y- Disabilita tutte le opzioni PCH
+/Zm<n> Massima allocazione di memoria (% del valore predefinito)
+/FS forza l'utilizzo di MSPDBSRV.EXE    
+/source-charset:<nome-iana>|.nnnn consente di impostare il set di caratteri di origine
+/execution-charset:<nome-iana>|.nnnn consente di impostare il set di caratteri di esecuzione
+/utf-8 consente di impostare il set di caratteri di origine e quello di esecuzione su UTF-8
+/validate-charset[-] convalida i file UTF-8 solo per i caratteri validi
+/fastfail[-] abilita la modalità fast-fail
+/JMC[-] abilita Just My Code nativo     
+/presetPadding [-] aggiunta di zero per l'inizializzazione dei tipi di classe basati su stack
+/volatileMetadata[-] Genera metadati sugli accessi alla memoria volatile
+
+                                - COLLEGAMENTO -
+
+/LD Crea un file .DLL                   /LDd Crea un libreria di debug .DLL
+/LN Crea un .netmodule                  
+/F<numero> Imposta la dimensione dello stack
+/link [librerie e opzioni del linker]   
+/MD Effettua il collegamento con MSVCRT.LIB
+/MT Effettua il collegamento con LIBCMT.LIB
+/MDd Effettua il collegamento con la libreria di debug MSVCRTD.LIB
+/MTd Effettua il collegamento con la libreria di debug LIBCMTD.LIB
+
+                              -CODE ANALYSIS-
+
+/analyze[-] Abilita l'analisi nativa    
+/analyze:quiet[-] Nessun avviso sulla console
+/analyze:log<nome> Avvisi nel file      /analyze:autolog Accesso a *.pftlog
+/analyze:autolog:ext<ext> Accesso a *.<ext>
+/analyze:autolog- Nessun file di log    /analyze:WX- Avvisi non irreversibili
+/analyze:stacksize<numero> Numero massimo di stack frame
+/analyze:max_paths<numero> Numero massimo di percorsi
+/analyze:only Analisi, nessuna generazione codice
+
+                              -DIAGNOSTICA-
+
+/diagnostics:<args,...> Controlla il formato dei messaggi di diagnostica:
+             classic   - Mantiene il formato precedente
+             column[-] - Stampa le informazioni sulle colonne
+             caret[-]  - Stampa la colonna e la riga di codice indicata
+/Wall Abilita tutti gli avvisi          /w   Disabilita tutti gli avvisi
+/W<n> Imposta il livello di avviso (valore predefinito n=1)
+/Wv:xx[.yy[.zzzzz]] disabilita gli avvisi introdotti dopo la versione xx.yy.zzzzz
+/WX Considera gli avvisi come errori    
+/WL Abilita le informazioni di diagnostica su una sola riga
+/wd<n> Disabilita l'avviso n            
+/we<n> Considera l'avviso n come un errore
+/wo<n> Riporta l'avviso n una sola volta
+/w<l><n> Imposta il livello di avviso 1-4 per n
+/external:I <percorso>      - Percorso delle intestazioni esterne
+/external:env:<var>     - Variabile di ambiente con percorsi delle intestazioni esterne
+/external:anglebrackets - Considera come esterne tutte le intestazioni incluse tramite <>
+/external:W<n>          - Livello di avviso per le intestazioni esterne
+/external:templates[-]  - Valuta il livello di avviso nella catena di creazione di un'istanza dei modelli
+/sdl abilita ulteriori avvisi e funzionalità di sicurezza
+
+Performing C++ SOURCE FILE Test NO_STACK_PROTECTOR_FLAG succeeded with the following output:
+Change Dir: C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b13c4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.1+3e40a09f8 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.29.30136 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D NO_STACK_PROTECTOR_FLAG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b13c4.dir\Debug\\" /Fd"cmTC_b13c4.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue  -fno-stack-protector "C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\CMakeTmp\src.cxx"
+  cl : warning della riga di comando D9002 : l'opzione sconosciuta '-fno-stack-protector' verrà ignorata
+  cmTC_b13c4.vcxproj -> C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\CMakeFiles\CMakeTmp\Debug\cmTC_b13c4.exe
+
+
+Source file was:
+int main() { return 0; }

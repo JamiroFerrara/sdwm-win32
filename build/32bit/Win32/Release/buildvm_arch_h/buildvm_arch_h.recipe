@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\cmake\luajit\host\minilua\Release\minilua.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\build\32bit\Release\buildvm_arch_h</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

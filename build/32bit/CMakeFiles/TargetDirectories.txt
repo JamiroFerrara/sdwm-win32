@@ -1,0 +1,15 @@
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/dwm-win32.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/luacompat53.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/buildvm_arch_h.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/lj_gen_headers.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/lj_gen_folddef.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/libluajit.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/INSTALL.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/ALL_BUILD.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/minilua/CMakeFiles/minilua.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/minilua/CMakeFiles/INSTALL.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/minilua/CMakeFiles/ALL_BUILD.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/CMakeFiles/buildvm.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/CMakeFiles/INSTALL.dir
+C:/Users/Jamiro Ferrara/GitHub/TecnoACE/sdwm-win32/build/32bit/cmake/luajit/host/buildvm/CMakeFiles/ALL_BUILD.dir

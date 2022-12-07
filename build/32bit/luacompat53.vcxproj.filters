@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\extern\lua-compat-5.3\compat-5.3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jamiro Ferrara\GitHub\TecnoACE\sdwm-win32\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F21161A-5D2E-3673-92A8-2F3C26BFC2DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
